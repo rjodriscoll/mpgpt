@@ -14,7 +14,7 @@ Create a virtual environment and activate it:
 ```bash
 python -m venv venv
 source venv/bin/activate    # For Unix-based systems
-venv\Scripts\activate.bat   # For Windows
+venv\Scripts\activate   # For Windows
 ```
 
 Install the required packages using pip:
