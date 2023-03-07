@@ -3,7 +3,7 @@ Whisper Summarizer
 A Python project that uses OpenAI's GPT-3.5 model to summarize the content of a YouTube video. The summary is provided in a specified output format (e.g., markdown, plain text).
 
 
-To interact with the summariser notebook you will need to add your openai API key to a src/config.py file:
+To interact with the summariser notebook you will need to add your openai API key to a `src/config.py` file:
 
 ```python
 API_KEY = 'my key'
@@ -19,13 +19,13 @@ venv\Scripts\activate.bat   # For Windows
 
 Install the required packages using pip:
 ```bash
-pip install -r requirements.
+pip install -r requirements.txt
 ```
 
 
 Use the url and output_format to get a youtube video and decribe how you want it summarised: 
 
 ```python
-r = Responder(url = 'youtube.com/something',output_format= '10 bullet points')
+r = Responder(url = 'youtube.com/something', output_format= '10 bullet points')
 Markdown(r.get_response())
 ```
