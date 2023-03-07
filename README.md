@@ -1,6 +1,6 @@
-Whisper Summarizer
+Youtube Summarizer
 
-A Python project that uses OpenAI's GPT-3.5 model to summarize the content of a YouTube video. The summary is provided in a specified output format (e.g., markdown, plain text).
+A Python project that uses OpenAI's GPT-3.5 and whisper models to summarise the content of a YouTube video as you request.
 
 
 To interact with the summariser notebook you will need to add your openai API key to a `src/config.py` file:
