@@ -1,4 +1,4 @@
-Youtube Summarizer
+Youtube Summariser
 
 A Python project that uses OpenAI's GPT-3.5 and whisper models to summarise the content of a YouTube video as you request. The project has been updated to allow very long videos, and at present this is not threaded, so it's pretty slow. See to dos below
 
